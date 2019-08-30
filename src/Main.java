@@ -61,7 +61,7 @@ public class Main {
             numberOfBills++;
         }while(numberOfBills <= 30);
 
-        System.out.print("The total expenses for this month are: €" + round(bills) + "\n\n");
+        System.out.print("The total expenses for this month are: €" + round(bills) + "\n");
         if(bills > totalIncome) System.out.print("WARNING: the bills add up to be MORE than the total income for the month! That is a BIG problem.\n\n");
         double mustPay;
         double percentage;
